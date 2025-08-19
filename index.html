@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Green angela • Web Developer</title>
+  <meta name="description" content="Green angela — HTML, CSS, JavaScript, Web Development, Programming, Coding" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+      <header class="site-header">
+        <nav class="container nav">
+            <a href="#home" class="brand">Green angela</a>
+            <button class="nav__toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Toggle menu">
+              <span class="nav__bar"></span>
+              <span class="nav__bar"></span>
+              <span class="nav__bar"></span>
+            </button>
+            <ul id="nav-list" class="nav__list">
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#code">Code</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+      </header>
+
+  <main id="main">
+        <!-- Hero -->
+        <section id="home" class="section hero">
+          <div class="container hero__inner">
+            <h1 class="reveal">I build clean, modern web experiences.</h1>
+            <p class="lead reveal delay-1">
+              I specialize in <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>,
+              <strong>Web Development</strong>, <strong>Programming</strong>, and <strong>Coding</strong> —
+              with a focus on accessibility, performance, and subtle animation.
+            </p>
+            <div class="hero__cta reveal delay-2">
+              <a class="btn btn--primary" href="#projects">View Projects</a>
+              <a class="btn btn--ghost" href="#contact" aria-label="Jump to contact">Contact</a>
+            </div>
+          </div>
+        </section>
+
+    <!-- About -->
+      <section id="about" class="section">
+        <div class="container grid grid--2cols">
+          <div class="stack reveal">
+            <h2>About Me</h2>
+            <p>
+              I'm a front‑end focused developer who loves crafting delightful, accessible UIs.
+              I enjoy clean architectures, small details, and shipping fast. I write semantic HTML,
+              modern CSS, and efficient JavaScript. My work balances aesthetics, performance,
+              and maintainability.
+            </p>
+          </div>
+          <aside class="card reveal delay-1">
+            <h3 class="card__title">Highlights</h3>
+            <ul class="list">
+              <li>Semantic, accessible markup</li>
+              <li>Responsive, grid‑based layouts</li>
+              <li>Subtle, performant animations</li>
+              <li>Performance & best practices</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section section--tint">
+      <div class="container">
+        <h2 class="reveal">Skills</h2>
+        <div class="grid grid--3cols">
+          <article class="card reveal">
+            <div class="chip">HTML</div>
+            <h3>Advanced</h3>
+            <ul class="list small">
+              <li>Semantic structure</li>
+              <li>Accessibility (a11y)</li>
+              <li>SEO-friendly markup</li>
+            </ul>
+          </article>
+          <article class="card reveal delay-1">
+            <div class="chip">CSS</div>
+            <h3>Advanced</h3>
+            <ul class="list small">
+              <li>Responsive layouts</li>
+              <li>Grid & Flexbox</li>
+              <li>Animations/Transitions</li>
+            </ul>
+          </article>
+          <article class="card reveal delay-2">
+            <div class="chip">JavaScript</div>
+            <h3>Advanced</h3>
+            <ul class="list small">
+              <li>ES6+, modules</li>
+              <li>APIs & async</li>
+              <li>SPA patterns</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <div class="chip">Web Development</div>
+            <h3>Advanced</h3>
+            <ul class="list small">
+              <li>Performance</li>
+              <li>Accessibility</li>
+              <li>Best practices</li>
+            </ul>
+          </article>
+          <article class="card reveal delay-1">
+            <div class="chip">Programming</div>
+            <h3>Advanced</h3>
+            <ul class="list small">
+              <li>Problem solving</li>
+              <li>Data structures</li>
+              <li>Clean code</li>
+            </ul>
+          </article>
+          <article class="card reveal delay-2">
+            <div class="chip">Coding</div>
+            <h3>Advanced</h3>
+            <ul class="list small">
+              <li>Version control</li>
+              <li>Testing mindset</li>
+              <li>Automation</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="row row--between row--center gap-s">
+          <h2 class="reveal">Projects</h2>
+          <p class="muted reveal delay-1">Filter by tags: HTML • CSS • JavaScript • Web Development</p>
+        </div>
+        <div class="grid grid--3cols">
+          <article class="card reveal">
+            <h3 class="card__title">Responsive Portfolio</h3>
+            <p>A clean, animated portfolio with grid layout and subtle theme.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </article>
+          <article class="card reveal delay-1">
+            <h3 class="card__title">JS Utilities Kit</h3>
+            <p>Reusable JS helpers (debounce, throttle, formatter) as a tiny module.</p>
+            <div class="tags"><span>JavaScript</span><span>Programming</span></div>
+          </article>
+          <article class="card reveal delay-2">
+            <h3 class="card__title">Accessible Components</h3>
+            <p>ARIA‑aware UI patterns: modal, tabs, accordion — keyboard‑first.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>Web Dev</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Code Samples -->
+    <section id="code" class="section section--tint">
+      <div class="container">
+        <h2 class="reveal">Code Samples</h2>
+        <div class="grid grid--3cols">
+          <article class="card codecard reveal">
+            <div class="row row--between row--center">
+              <h3>HTML</h3>
+              <button class="btn btn--sm" data-copy="#codesample-html">Copy</button>
+            </div>
+            <pre class="code" id="codesample-html">
+              <code>
+&lt;!-- Accessible card --&gt;
+&lt;article class="card" role="article"&gt;
+  &lt;h3&gt;Project Title&lt;/h3&gt;
+  &lt;p&gt;Short description with semantic tags and proper headings.&lt;/p&gt;
+  &lt;a href="#" aria-label="Open Project Title details"&gt;Read more&lt;/a&gt;
+&lt;/article&gt;
+              </code>
+            </pre>
+          </article>
+          
+          <article class="card codecard reveal delay-1">
+            <div class="row row--between row--center">
+              <h3>CSS</h3>
+              <button class="btn btn--sm" data-copy="#codesample-css">Copy</button>
+            </div>
+            <pre class="code" id="codesample-css">
+              <code>
+.card {
+  display: grid;
+  gap: .5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,.06);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(0,0,0,.10);
+}
+              </code>
+            </pre>
+          </article>
+                <br>
+          <article class="card codecard reveal delay-2">
+            <div class="row row--between row--center">
+              <h3>JavaScript</h3>
+              <button class="btn btn--sm" data-copy="#codesample-js">Copy</button>
+            </div>
+            <pre class="code" id="codesample-js">
+              <code>
+// Accessible toggle
+  const toggle = (btn, panel) =&gt; {
+  const expanded = btn.getAttribute('aria-expanded') === 'true';
+  btn.setAttribute('aria-expanded', String(!expanded));
+  panel.hidden = expanded;
+};
+              </code>
+            </pre>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="card reveal">
+          <h2>Get in Touch</h2>
+          <p>Have a project in mind or want to collaborate? Let’s talk.</p>
+          <div class="row gap-s wrap">
+            <a class="btn btn--primary" href="mailto:greenangela218@gmail.com">greenangela218@gmail.com</a>
+            <a class="btn btn--ghost" href="https://github.com/greenangela" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn btn--ghost" href="https://linkedin.com/in/greenangela" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container center">
+      © <span id="year"></span> Green angela — Built with HTML, CSS, and JavaScript.
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
